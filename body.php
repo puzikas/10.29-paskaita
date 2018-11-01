@@ -26,20 +26,17 @@
 							<button class="btn btn-warning" type="submit" value="upload" name="submit">Upload</button>
 						</div>
 					</div>
-					
 				</form>
 			</div>
 		</div>
 		<br>
 		<?php
-
 		if (isset($alert)) {
 			echo "<div class='alert alert-warning' role='alert'>
 			$alert
 		</div>";
-	}
-
-	?>
+		}
+		?>
 	<div class="row">
 		<div class="col"><h3>All photos:</h3></div>
 	</div>
@@ -49,8 +46,8 @@
 			echo "<div class='col-4'>
 			<img class='image' src='images/$image'>
 		</div>";
-	}
-	?>
+		}
+		?>
 </div>
 </body>
 </html>

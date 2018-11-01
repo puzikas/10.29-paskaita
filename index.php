@@ -10,7 +10,6 @@ if (isset($_POST['submit'])) {
 // 	$alert = "Sorry, there was an error uploading your file.";
 }
 
-
 $images = array_diff(scandir("images"), ['..', '.']);
 
 include "body.php";
